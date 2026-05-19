@@ -1,0 +1,55 @@
+{
+  "translations": {
+    "missing_keys": [
+      "task.placeholder",
+      "priority.low",
+      "priority.medium",
+      "priority.high",
+      "button.add",
+      "filter.all",
+      "filter.active",
+      "filter.completed",
+      "stats.total",
+      "stats.completed",
+      "button.delete",
+      "footer.text"
+    ],
+    "expected_fr_count": 14
+  },
+  "code_quality": {
+    "unused_variables": ["unusedVariable"],
+    "formatting_issues": ["handleSubmit function needs proper formatting"],
+    "functions_needing_refactor": ["render method in TaskManager is too long"]
+  },
+  "tests": {
+    "current_coverage": 30,
+    "target_coverage": 80,
+    "missing_tests": [
+      "toggleTask",
+      "deleteTask",
+      "setFilter",
+      "render",
+      "saveToStorage",
+      "loadFromStorage"
+    ]
+  },
+  "documentation": {
+    "missing_docstrings": [
+      "TaskManager.addTask",
+      "TaskManager.toggleTask",
+      "TaskManager.deleteTask",
+      "TaskManager.setFilter",
+      "TaskManager.render",
+      "init",
+      "setupEventListeners",
+      "handleSubmit",
+      "switchLanguage"
+    ],
+    "readme_sections_needed": ["Features", "Testing", "Contributing"]
+  },
+  "quality_gates": {
+    "min_coverage": 80,
+    "max_lint_errors": 0,
+    "all_tests_must_pass": true
+  }
+}

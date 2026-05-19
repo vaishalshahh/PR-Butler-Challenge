@@ -1,0 +1,16 @@
+{
+  "app.title": "My Task Manager",
+  "task.add": "Add New Task",
+  "task.placeholder": "Enter task description",
+  "priority.low": "Low Priority",
+  "priority.medium": "Medium Priority",
+  "priority.high": "High Priority",
+  "button.add": "Add Task",
+  "filter.all": "All Tasks",
+  "filter.active": "Active",
+  "filter.completed": "Completed",
+  "stats.total": "Total tasks",
+  "stats.completed": "Completed",
+  "button.delete": "Delete",
+  "footer.text": "Built with TypeScript"
+}
